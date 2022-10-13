@@ -1,0 +1,56 @@
+{
+  "kind": "collectionType",
+  "collectionName": "basics_data",
+  "info": {
+    "singularName": "basic-data",
+    "pluralName": "basics-data",
+    "displayName": "BasicData",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": false
+    },
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "resume": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "activity": {
+      "type": "json"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "mail": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "stackoverflow": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    }
+  }
+}

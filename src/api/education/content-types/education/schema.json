@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "educations",
+  "info": {
+    "singularName": "education",
+    "pluralName": "educations",
+    "displayName": "Education",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "institute": {
+      "type": "string",
+      "required": true
+    },
+    "degree": {
+      "type": "string",
+      "required": true
+    },
+    "time": {
+      "type": "string",
+      "required": false
+    },
+    "description": {
+      "type": "json"
+    },
+    "department": {
+      "type": "string",
+      "required": true,
+      "default": "Computer Science"
+    }
+  }
+}
